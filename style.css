@@ -1,4 +1,15 @@
-/*
 h1 {
-    background-color: yellow;
-}*/
+    color: black;
+}
+
+.liger {
+    color: blue;
+}
+
+#main-header {
+    color: burlywood;
+}
+
+.inline-header {
+    display: inline;
+}
