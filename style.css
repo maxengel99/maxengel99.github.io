@@ -10,6 +10,69 @@ h1 {
     color: burlywood;
 }
 
-.inline-header {
-    display: inline;
+#border-header {
+    border: solid;
+    margin: 0 -10px;
+}
+
+#header-group {
+    border: solid;
+    border-color: orange;
+}
+
+#span-text {
+    color: rgb(255, 0, 0);
+    font-weight: 700;
+}
+
+#thick-hr {
+    background-color: black;
+    height: 10px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#green-line {
+    border-top: 2px dashed green;
+}
+
+#navigation-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.navigation-link {
+    float: left;
+    width: 30%;
+}
+
+.wide-div {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#test-img {
+    width: 200px;
+}
+
+body {
+    margin: 0px;
+}
+
+#top-background {
+    background-image: url("./Images/dog.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center top;
+    background-attachment: fixed;
 }
